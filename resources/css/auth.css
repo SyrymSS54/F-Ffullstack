@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/garet');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Readex+Pro:wght@160..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Readex+Pro:wght@160..700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 226px auto;
+}
+
+.title{
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 42px;
+    line-height: 42px;
+    color: #000000;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+label{
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 18px;
+    line-height: 26px;
+    color: #303030;
+}
+
+.input-form{
+    border: #A7AED2 solid 1px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 17px;
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 10px 0;
+    color: #A7AED2;
+}
+
+.link-input{
+    color: #FFD900;
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 10px 0;
+    align-self: end;
+}
+
+input[type=submit]{
+    margin: 25px 0;
+    box-shadow: #00000040 0 4px 4px;
+    background-color: #FFD900   ;
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+    padding: 12px 159px;
+    border-radius: 10px;
+}
+
+.or{
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 14px;
+    line-height: 14px;
+    align-self: center;
+    color: #000000;
+}
+
+.register{
+    border: #FFD900 2px solid;
+    border-radius: 10px;
+    font-family: 'Garet';
+    font-weight: 850;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFD900;
+    background-color: white;
+    text-align: center;
+    padding: 12px 0;
+    width: 380px;
+}
+
+.register-link{
+    align-self: stretch;
+    margin: 20px 0;
+}
